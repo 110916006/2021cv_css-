@@ -1,0 +1,103 @@
+.hh{
+    position: fixed;
+    right: 0;
+    top: 100%;
+    margin-top: -2.5em;
+}
+.header {
+    background-color: rgb(185, 247, 185);
+
+    position: sticky;
+    top: 0;
+
+    z-index: 9999;
+}
+
+.HandS{
+    background-color: rgb(195, 142, 245);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__cover {
+    background: linear-gradient(#76ebd1, #293f50, #ec2fec);
+    height: 300px;
+    width: 100%;
+}
+
+.card__content {
+    flex: 1;
+    text-align: center;
+    background-color: rgba(0, 102, 255, 0.288);
+}
+
+#content{
+    color: rgb(255, 255, 255);
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+}
+
+#content2{
+    color: rgb(0, 0, 0);
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+}
+
+.container {
+    position: relative;
+}
+
+.container__line {
+    border-right: 2px solid rgb(228, 88, 88);
+    left: 16px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+}
+
+.container__items {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container__item {
+    margin-bottom: 8px;
+}
+
+.container__top {
+    align-items: center;
+    display: flex;
+}
+
+.container__circle {
+    background-color: rgb(228, 88, 88);
+    border-radius: 9999px;
+    height: 32px;
+    width: 32px;
+}
+
+.container__title {
+    flex: 1;
+}
+
+.container__desc {
+    margin-left: 48px;
+}
+
+.WE{
+    background-color: burlywood;
+}
+
+.WA{
+    background-color: rgb(221, 140, 140);
+}
+
+.footer {
+    background-color: #ddd;
+    left: 0;
+    position: sticky;
+    z-index: 9999;
+}
